@@ -12,9 +12,13 @@ body {
   max-width: 1200px;
   margin: 0 auto;
 }
+.img-responsive {
+  width: 100%;
+  display: block;
+}
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(/images/188-215.jpg);
+    url(/images/Hafez-tomb.jpg);
   background-size: cover;
   background-position: center;
   color: var(--primary-color);
@@ -68,7 +72,7 @@ header a {
 }
 footer {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(/images/Greece-photo-2.jpg);
+    url(/images/saadi-tomb.webp);
   color: white;
   background-repeat: no-repeat;
   background-size: cover;
