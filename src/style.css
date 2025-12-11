@@ -52,6 +52,61 @@ header a {
   margin-top: 32px;
   display: inline-block;
 }
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+  grid-gap: 64px;
+}
+.grid-2-columns {
+  grid-template-columns: 1fr 1fr;
+}
+.grid-3-columns {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.grid-3-columns-narrow {
+  grid-template-columns: 1fr 2fr 2fr;
+}
+footer {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(/images/Greece-photo-2.jpg);
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+footer h3 {
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 10px;
+  font-weight: 700;
+  padding: 10px;
+  margin-bottom: 0;
+}
+footer ul {
+  padding: 0;
+  margin-top: 0;
+}
+footer li {
+  list-style: none;
+  padding-left: 15px;
+}
+footer ul a {
+  color: var(--primary-color);
+  opacity: 0.8;
+}
+footer p {
+  font-size: 15px;
+  line-height: 1.5;
+  font-weight: 400;
+  opacity: 0.8;
+  margin: 10px;
+  margin-top: 0;
+  padding: 10px;
+}
+footer p a {
+  color: var(--primary-color);
+  font-weight: bold;
+  opacity: 0.8;
+}
 @media (max-width: 960px) {
   header {
     padding: 60px 0;
@@ -64,5 +119,12 @@ header a {
   }
   header h3 {
     font-size: 19px;
+  }
+  .grid {
+    grid-template-columns: 1fr;
+    grid-gap: 30px;
+  }
+  section {
+    padding: 30px;
   }
 }
