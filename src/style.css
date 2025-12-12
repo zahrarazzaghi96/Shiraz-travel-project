@@ -22,8 +22,9 @@ body {
   display: block;
 }
 .img-responsive-1 {
-  width: 175%;
+  width: 100%;
   display: block;
+  aspect-ratio: 1 / 1;
 }
 .embed {
   width: 100%;
